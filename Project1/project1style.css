@@ -1,0 +1,219 @@
+
+/* Header*/
+.logo{
+width:100%;
+height:70px;
+
+}
+
+.logo1 {
+width:10%;
+height:100%;
+float:left;
+}
+
+
+.logo2 {
+width:10%;
+height:100%;
+float:right;
+}
+
+
+/* Pink box*/
+.pinkbox{
+border: 1px solid black;
+background-color: lightpink;
+width:100%;
+height:700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+.h5 {
+color:white;
+padding-left: 20px;
+margin-bottom: 50px;
+}
+
+.figure{
+text-align: left;
+font-size: 8px;
+color: white;
+}
+
+
+.sub {
+color: white;
+width: 46%;
+height:36%;
+margin-left: 2%;
+margin-bottom: 50px;
+}
+
+.sub1{
+  color: white;
+  font-size: 10px;
+  margin-top: 100px;
+  margin-left: none;
+  padding-left: none;
+  border: 1px solid purple;
+  width: 250px;
+  height: 200px;
+}
+
+.sub1 img {
+color: white;
+width: 100%;
+height: 100%;
+text-align: left;
+}
+
+.sub2{
+margin-top: 100px;
+
+color: white;
+text-align: left;
+width: 45%;
+height: 200px;
+
+}
+
+.sub3{
+color: white;
+text-align: left;
+
+}
+
+.sub4{
+  border: 1px solid purple;
+  font-size: 10px;
+  width: 250px;
+  height: 200px;
+  float: right;
+}
+
+.sub4 img {
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+/* Upcoming Events*/
+.events{
+background-color: black;
+text-align: center;
+height: 60px;
+/* list-style-type: none;*/
+
+}
+
+.events li{
+display: inline;
+
+}
+
+.events li a{
+display: inline-block;
+
+}
+
+.events li a:hover{
+
+}
+
+
+/* Table*/
+table {
+border: 2px solid black;
+
+
+}
+th {
+background-color: lightgreen;
+text-align: left;
+width: 10px;
+
+}
+td {
+background-color: white;
+
+}
+
+
+
+/* Social menu*/
+/* .social-menu ul li {
+width: 5%;
+height: 1%;
+list-style-type: none;
+
+}
+
+
+.contact2{
+background-image: url('images/logos/phone.png');
+background-repeat:no-repeat;
+background-size: 50% 50%;
+padding: 50px 5px;
+list-style: none;
+
+}
+
+.contact3{
+background-image: url('images/logos/email.png');
+background-repeat:no-repeat;
+background-size: 50% 50%;
+padding: 50px 5px;
+list-style: none;
+
+
+}
+.contact4{
+background-image: url('images/logos/instagram.png');
+background-repeat:no-repeat;
+background-size: 50% 50%;
+padding: 50px 5px;
+list-style: none;
+}
+ */
+
+ /* Social Media menu*/
+ .social-menu {
+ height: 200px;
+ font-size: 12px;
+
+ }
+
+ .social-menu img {
+  height: 40px;
+
+ }
+
+
+
+
+/* Navigation menu*/
+.menu {
+height: 40px;
+font-size: 16px;
+text-align: center;
+}
+
+.menu a {
+text-decoration: none;
+padding: 3%;
+}
+
+.menu a:hover {
+background-color: none;
+}
+
+/* Footer*/
+.footer{
+text-align: center;
+}
