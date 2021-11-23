@@ -14,7 +14,7 @@ body, html{
 
 .clock {
   border-radius: 50%;
-  background-image: url(https://dadirad.github.io/CarrComputing.github.io/Assignment3/clockimage.png);
+  background-image: url('https://dadirad.github.io/CarrComputing.github.io/Assignment3/clockimage.png');
   background-color: purple;
   background-size: 600px 600px;
   height: 600px;
