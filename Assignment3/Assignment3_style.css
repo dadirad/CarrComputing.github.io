@@ -5,7 +5,7 @@ body, html{
 }
 
 .background{
-  background-image: url('https://dadirad.github.io/CarrComputing.github.io/Assignment3/Atlanta.jpeg');
+  background-image: url('Atlanta.jpeg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body, html{
 
 .clock {
   border-radius: 50%;
-  background-image: url('https://dadirad.github.io/CarrComputing.github.io/Assignment3/clockimage.png');
+  background-image: url('clockimage.png');
   background-color: purple;
   background-size: 600px 600px;
   height: 600px;
@@ -82,11 +82,6 @@ body, html{
 .minutes-container {
   animation: rotate 10s infinite linear;
 }
-
-
-
-
-
 
 
 
