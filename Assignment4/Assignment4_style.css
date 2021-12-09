@@ -1,0 +1,208 @@
+body {
+  background-color: purple;
+}
+/* MODAL WINDOW */
+
+.mymodal{
+  position:fixed;
+  top:0;
+bottom:0;
+right:0;
+left:0;
+  opacity: 0;
+  pointer-events: none;
+  animation: logomove 3s;
+}
+
+.mymodal:target {
+  opacity: 1;
+  pointer-events: all;
+}
+.msgblock{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mymodal2{
+  position:fixed;
+  top:0;
+bottom:0;
+right:0;
+left:0;
+  opacity: 0;
+  pointer-events: none;
+  animation: logomove 3s;
+}
+
+.mymodal2:target {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+.mymodal3{
+  position:fixed;
+  top:0;
+bottom:0;
+right:0;
+left:0;
+  opacity: 0;
+  pointer-events: none;
+  animation: logomove 3s;
+}
+
+.mymodal3:target {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+
+
+
+/* SLIDE SHOW */
+
+.stage{
+height: 60px;
+border: 2px solid blue;
+
+}
+
+
+.slide-wrapper {
+
+  width:100%;
+
+
+  animation: slideshow 12s;
+
+
+
+}
+
+.slide {
+  width:;
+}
+
+
+/* the 1st product row CSS */
+
+
+.row {
+height: 500px;
+width: 100%;
+/* define the block height, width can be omitted */
+border: 2px;
+
+}
+
+.item {
+width:31%;
+/* each product is 1/3 of the row space, leave more space on the left and right */
+border: 2px solid black;
+height:100%;
+float: left;
+/* margin-left: 4%; */
+font-size: 3vh;
+
+}
+
+
+
+
+
+
+@keyframes slideshow {
+
+ 0% { 0%  }
+
+25% { -100%}
+
+50%  { -200%}
+
+75%{   }
+
+ 100% {  }
+
+}
+
+
+
+
+
+
+.heroblock{
+  margin-top: 100px;
+}
+
+.headerbox {
+border: 2px solid black;
+height: 170px;
+/* background: lightblue; */
+/* position: relative; */
+box-sizing: border-box;
+}
+
+.imgbox{
+/* box-sizing: border-box; */
+/* border: 2px solid green; */
+height: 80%;
+width:20%;
+float: left;
+/* margin-left: 4%;
+margin-top: 2%; */
+/* animation: logomove 3s;
+animation-iteration-count: infinite; */
+/* transition: background-color 10s; */
+/* background-color: blue; */
+}
+
+.title {
+box-sizing: border-box;
+ /* border: 2px solid; */
+ width: 76%;
+ height: 60%;
+float: left;
+text-align: center;
+margin-left: 2%;
+animation: titlemove 1s ;
+
+/* margin: 13px 4px 8px 10px; */
+}
+
+.subtitle{
+  margin-left: 2%;
+  box-sizing: border-box;
+  /* border: 2px solid gray; */
+  width: 76%;
+  height: 34%;
+  float: left;
+  margin-top: 1%;
+  text-align: center;
+animation: subtitlemove 3s;
+}
+
+
+@keyframes logomove {
+  0% {transform: scale(0);}
+  100 {transform: scale(0);}
+}
+
+
+@keyframes titlemove {
+  0% {}
+  50 {}
+  100 {}
+}
+
+
+@keyframes subtitlemove {
+  0% {}
+  50% {}
+  100 {}
+}
